@@ -1,0 +1,50 @@
+.fa-heart{
+    width:20%;
+    font-size: 1.7em;
+}
+.person-img{
+    width:115px;
+    border-radius: 17px;
+}
+.person-description{
+    border-left: 4px solid #eee;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom:12px;
+}
+.person-likes{
+    margin-top: 6em;
+}
+.nav-link:not(.dropdown-toggle){
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border: 2px solid #eee;
+    border-radius: 0 !important;
+    color: #000;
+}
+.nav-link.active{
+    background-color: #000 !important;
+}
+a.nav-link:not(.active)
+{
+    color:#000 !important;
+}
+
+.btn-black{
+    background-color: #000;
+    color: #fff;
+}
+
+input[type='search']:focus
+{
+    border-color: #ced4da;
+    box-shadow: none;
+}
+
+@media(max-width: 768px)
+{
+    .container
+    {
+        max-width: 95% !important;
+    }
+}

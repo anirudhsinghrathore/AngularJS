@@ -1,0 +1,14 @@
+<div class="row mt-4">
+    <div class="col-sm-3">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link text-sm-left text-center" id="v-pills-home-tab" ng-repeat="person in $ctrl.people" data-toggle="pill"
+               href="#v-pills-{{person.name.replace(' ','')}}" role="tab"
+               aria-controls="v-pills-{{person.name.replace(' ','')}}" aria-selected="true">
+                {{person.name}}
+            </a>
+        </div>
+    </div>
+    <div class="col-sm-9 mt-sm-0 mt-3">
+        <main-content-component people="$ctrl.people"></main-content-component>
+    </div>
+</div>
